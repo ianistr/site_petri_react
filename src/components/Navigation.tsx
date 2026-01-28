@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import { Menu, X } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export default function Navigation() {
@@ -29,7 +28,9 @@ export default function Navigation() {
     <nav id="navbar" className={scrolled ? 'scrolled' : ''}>
       <div className="nav-wrapper">
         <div className="brand">
-          <Link to="/" className="brand-text">NMS IT</Link>
+          <Link to="/" className="brand-logo">
+  <img src="/logo_nms.png" alt="NMS IT" className="h-16 w-auto" />
+</Link>
         </div>
         <button
           className={`hamburger ${menuOpen ? 'active' : ''}`}
