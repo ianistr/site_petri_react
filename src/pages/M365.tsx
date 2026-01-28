@@ -6,7 +6,7 @@ export default function M365() {
     <>
       <Navigation />
 
-      <section className="page-hero">
+      <section className="hero">
         <div className="hero-text">
           <div style={{ display: 'inline-block', padding: '0.5rem 1rem', background: 'var(--neutral-200)', borderRadius: '50px', fontSize: '0.8rem', fontWeight: '700', color: '#0078D4', marginBottom: '1rem' }}>
             PARTENER CLOUD
@@ -23,13 +23,13 @@ export default function M365() {
           </a>
         </div>
 
-        <div style={{ background: 'white', padding: '2.5rem', borderRadius: '30px', boxShadow: '0 30px 60px rgba(0,0,0,0.05)', border: '1px solid var(--neutral-200)', position: 'relative' }}>
+        <div style={{ background: '#0F2438',color:"white", padding: '2.5rem', borderRadius: '30px', boxShadow: '0 30px 60px rgba(0,0,0,0.05)', border: '1px solid var(--neutral-200)', position: 'relative' }}>
           <div style={{ fontSize: '3rem', marginBottom: '1rem' }}>☁️</div>
           <h4 style={{ marginBottom: '0.5rem' }}>Cloud Status</h4>
           <div style={{ width: '100%', height: '8px', background: 'var(--neutral-200)', borderRadius: '10px', marginBottom: '1rem' }}>
             <div style={{ width: '85%', height: '100%', background: '#0078D4', borderRadius: '10px' }}></div>
           </div>
-          <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)' }}>85% din companiile moderne au migrat deja fluxurile critice în Microsoft 365.</p>
+          <p style={{ fontSize: '0.85rem', color: 'white' }}>85% din companiile moderne au migrat deja fluxurile critice în Microsoft 365.</p>
         </div>
       </section>
 
@@ -46,7 +46,7 @@ export default function M365() {
             </ul>
           </div>
 
-          <div style={{ gridColumn: 'span 5', background: 'white', padding: '3rem', borderRadius: '24px', border: '1px solid var(--neutral-200)' }}>
+          <div style={{ gridColumn: 'span 5', background: 'var(--neutral-200)', padding: '3rem', borderRadius: '24px', border: '1px solid var(--neutral-200)' }}>
             <div style={{ fontSize: '2rem', marginBottom: '1rem' }}>🛡️</div>
             <h3 style={{ fontSize: '1.6rem', marginBottom: '1rem' }}>Securitate M365</h3>
             <p style={{ opacity: 0.8 }}>Configurăm politici de acces condiționat și protecție împotriva scurgerilor de date (DLP).</p>
@@ -57,14 +57,14 @@ export default function M365() {
             <p style={{ opacity: 0.8 }}>Audităm licențele tale pentru a ne asigura că ești protejat legal și financiar.</p>
           </div>
 
-          <div style={{ gridColumn: 'span 8', background: 'white', padding: '3rem', borderRadius: '24px', border: '1px solid var(--neutral-200)', display: 'flex', gap: '2rem', alignItems: 'center', flexWrap: 'wrap' }}>
+          <div style={{ gridColumn: 'span 8', background: '#0F2438',color:"white", padding: '3rem', borderRadius: '24px', border: '1px solid var(--neutral-200)', display: 'flex', gap: '2rem', alignItems: 'center', flexWrap: 'wrap' }}>
             <div style={{ flex: 1, minWidth: '250px' }}>
               <h3 style={{ fontSize: '1.6rem', marginBottom: '1rem' }}>Teams & Colaborare</h3>
               <p style={{ opacity: 0.8 }}>Transformăm Teams dintr-o aplicație de chat într-un hub complet de lucru, cu integrare SharePoint și aplicații custom.</p>
             </div>
-            <div style={{ background: 'var(--neutral-100)', padding: '2rem', borderRadius: '20px' }}>
+            <div style={{ background: 'var(--neutral-200)', padding: '2rem', borderRadius: '20px' }}>
               <p style={{ fontWeight: '700', color: 'var(--primary-teal)', marginBottom: '0.5rem' }}>Suport Dedicat 24/7</p>
-              <span style={{ fontSize: '0.8rem' }}>Inclus în pachetele de administrare.</span>
+              <span style={{ fontSize: '0.8rem' , color: 'var(--primary-teal)'}}>Inclus în pachetele de administrare.</span>
             </div>
           </div>
 

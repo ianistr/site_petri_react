@@ -6,7 +6,7 @@ export default function NIS2() {
     <>
       <Navigation />
 
-      <header className="page-hero">
+      <header className="hero">
         <div className="hero-text">
           <div style={{ display: 'inline-block', padding: '0.4rem 1rem', background: '#E0F2FE', color: '#0369A1', borderRadius: '50px', fontSize: '0.75rem', fontWeight: '700', marginBottom: '1rem' }}>
             DIRECTIVA (UE) 2022/2555
@@ -62,13 +62,13 @@ export default function NIS2() {
             <p style={{ opacity: 0.8 }}>NIS2 nu este un proiect "one-time". Oferim audituri periodice pentru a menține certificarea.</p>
           </div>
 
-          <div style={{ gridColumn: 'span 8', background: 'white', padding: '3rem', borderRadius: '24px', border: '1px solid var(--neutral-200)', display: 'flex', gap: '2rem', alignItems: 'center', flexWrap: 'wrap' }}>
+          <div style={{ gridColumn: 'span 8', background: 'var(--primary-teal)', color: 'white', padding: '3rem', borderRadius: '24px', border: '1px solid var(--neutral-200)', display: 'flex', gap: '2rem', alignItems: 'center', flexWrap: 'wrap' }}>
             <div style={{ flex: 1, minWidth: '250px' }}>
               <h3 style={{ fontSize: '1.6rem', marginBottom: '1rem' }}>Raportare în 24h</h3>
               <p style={{ opacity: 0.8 }}>Implementăm sistemele tehnice necesare pentru a detecta și raporta incidentele semnificative în termenele legale stricte impuse de directivă.</p>
             </div>
-            <div style={{ background: 'var(--neutral-100)', padding: '2rem', borderRadius: '20px', textAlign: 'center' }}>
-              <p style={{ fontSize: '0.8rem', fontWeight: '700', color: 'var(--primary-teal)', marginBottom: '0.5rem' }}>RESPONSABILITATE</p>
+            <div style={{ background: '#0F2438', padding: '2rem', borderRadius: '20px', textAlign: 'center' }}>
+              <p style={{ fontSize: '0.8rem', fontWeight: '700', color: 'white', marginBottom: '0.5rem' }}>RESPONSABILITATE</p>
               <p style={{ fontSize: '0.75rem' }}>Suport juridic și tehnic combinat.</p>
             </div>
           </div>

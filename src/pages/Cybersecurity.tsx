@@ -1,4 +1,4 @@
-import { Shield, Activity, AlertCircle, Clock } from 'lucide-react';
+
 import Navigation from '../components/Navigation';
 import Footer from '../components/Footer';
 
@@ -7,7 +7,7 @@ export default function Cybersecurity() {
     <>
       <Navigation />
 
-      <section className="page-hero">
+      <section className="hero">
         <div className="hero-text">
           <div style={{ display: 'inline-block', padding: '0.5rem 1rem', background: 'rgba(25, 115, 175, 0.1)', borderRadius: '50px', fontSize: '0.8rem', fontWeight: '700', color: 'var(--primary-teal)', marginBottom: '1.5rem' }}>
             DEFENSIVĂ ACTIVĂ

@@ -242,7 +242,7 @@ body.menu-open {
 
 .hero {
   min-height: 100vh;
-  padding: calc(80px + var(--spacing-xl)) 6% var(--spacing-xl);
+  
   position: relative;
   display: grid;
   grid-template-columns: 1.618fr 1fr;
@@ -263,7 +263,7 @@ body.menu-open {
   margin: 0 auto;
   gap: 4rem;
   width: 100%;
-  margin-top: 5rem;
+  
 }
 
 .services-layout {

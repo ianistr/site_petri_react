@@ -6,7 +6,7 @@ export default function Software() {
     <>
       <Navigation />
 
-      <header className="page-hero">
+      <header className="hero">
         <div className="hero-text">
           <div style={{ display: 'inline-block', padding: '0.5rem 1rem', background: 'var(--neutral-200)', borderRadius: '50px', fontSize: '0.8rem', fontWeight: '700', color: 'var(--primary-teal)', marginBottom: '1rem' }}>
             SECURITY BY DESIGN
@@ -64,13 +64,13 @@ export default function Software() {
             <p style={{ opacity: 0.8 }}>Ai deja o aplicație? O audităm pentru a identifica breșe de securitate și o optimizăm pentru standardele actuale.</p>
           </div>
 
-          <div style={{ gridColumn: 'span 8', background: 'white', padding: '3rem', borderRadius: '24px', border: '1px solid var(--neutral-200)', display: 'flex', gap: '3rem', alignItems: 'center', flexWrap: 'wrap' }}>
+          <div style={{ gridColumn: 'span 8', background: '#0F2438', color: 'white', padding: '3rem', borderRadius: '24px', border: '1px solid var(--neutral-200)', display: 'flex', gap: '3rem', alignItems: 'center', flexWrap: 'wrap' }}>
             <div style={{ flex: 1, minWidth: '280px' }}>
-              <h3 style={{ fontSize: '1.8rem', marginBottom: '1rem' }}>Arhitecturi Microservicii</h3>
+              <h3 style={{ fontSize: '1.8rem', marginBottom: '1rem' }}>Arhitectura Microservicii</h3>
               <p style={{ opacity: 0.8 }}>Proiectăm sisteme complexe și interconectate prin API-uri securizate, capabile să susțină mii de utilizatori simultan.</p>
             </div>
-            <div style={{ background: 'var(--neutral-100)', padding: '2.5rem', borderRadius: '20px' }}>
-              <p style={{ fontWeight: '700', color: 'var(--primary-teal)', marginBottom: '0.5rem' }}>Tech Stack Modern</p>
+            <div style={{ background: 'var(--neutral-100)',color:"black", padding: '2.5rem', borderRadius: '20px' }}>
+              <p style={{ fontWeight: '700', marginBottom: '0.5rem' }}>Tech Stack Modern</p>
               <p style={{ fontSize: '0.8rem', lineHeight: 1.4 }}>AWS / Azure / Docker / Kubernetes</p>
             </div>
           </div>
