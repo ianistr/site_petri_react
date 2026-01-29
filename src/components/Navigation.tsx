@@ -47,7 +47,7 @@ export default function Navigation() {
           <li><Link to="/m365" onClick={closeMenu}>MS365</Link></li>
           <li><Link to="/nis2" onClick={closeMenu}>NIS2</Link></li>
           <li><Link to="/software" onClick={closeMenu}>Software</Link></li>
-          <li><a href="#contact" className="nav-cta" onClick={closeMenu}>Contact</a></li>
+          <li><Link to="/contact" className="nav-cta" onClick={closeMenu}>Contact</Link></li>
         </ul>
       </div>
     </nav>
