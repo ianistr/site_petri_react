@@ -4,8 +4,7 @@ import Cybersecurity from './pages/Cybersecurity';
 import M365 from './pages/M365';
 import NIS2 from './pages/NIS2';
 import Software from './pages/Software';
-
-import ContactPage from './pages/Contact';
+import ContactForm from './pages/Contact';
 
 export default function App() {
   return (
@@ -16,7 +15,7 @@ export default function App() {
         <Route path="/m365" element={<M365 />} />
         <Route path="/nis2" element={<NIS2 />} />
         <Route path="/software" element={<Software />} />
-        <Route path="/contact" element={<ContactPage />} />
+        <Route path="/contact" element={<ContactForm />} />
       </Routes>
     </Router>
   );
