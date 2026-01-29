@@ -1,4 +1,5 @@
-import React, { useState, ChangeEvent, FormEvent } from 'react';
+import React, { useState, FormEvent } from 'react';
+import Navigation from '../components/Navigation';
 
 // Define the submission status type
 type SubmissionStatus = 'idle' | 'sending' | 'success' | 'error';
@@ -16,7 +17,10 @@ const ContactForm: React.FC = () => {
   };
 
   return (
-    <section className="services-layout" style={{ paddingBottom: 'var(--spacing-xl)' }}>
+    <div>
+      <Navigation/>
+    <section className="services-layout" style={{ paddingBottom: 'var(--spacing-xl)',marginTop: '15vh' }}>
+      
       <div className="asymmetric-grid">
         
         {/* Sidebar Info - "The Command Center" */}
@@ -92,6 +96,7 @@ const ContactForm: React.FC = () => {
         </div>
       </div>
     </section>
+    </div>
   );
 };
 
